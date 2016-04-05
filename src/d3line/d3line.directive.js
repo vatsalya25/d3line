@@ -1,12 +1,6 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.D3lineDirective = D3lineDirective;
-
 function D3lineDirective($window, $log) {
-  'ngInject';
 
   var directive = {
     restrict: 'E',
@@ -123,3 +117,4 @@ function D3lineDirective($window, $log) {
     drawLineChart();
   }
 }
+angular.module('d3LineModule', []).directive('d3Line', ['$window', '$log', D3lineDirective]);
