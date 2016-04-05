@@ -1,0 +1,22 @@
+{
+  "name": "d3line",
+  "version": "1.0.0",
+  "description": "A simple line chart directive using D3js on angular",
+  "main": "src/d3line/d3line.directive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatsalya25/d3line.git"
+  },
+  "keywords": [
+    "d3"
+  ],
+  "author": "Vatsalya Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vatsalya25/d3line/issues"
+  },
+  "homepage": "https://github.com/vatsalya25/d3line#readme"
+}
