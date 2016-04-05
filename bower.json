@@ -1,0 +1,21 @@
+{
+  "name": "d3line",
+  "homepage": "https://github.com/vatsalya25/d3line",
+  "authors": [
+    "vatsalya25 <vatsalya25@gmail.com>"
+  ],
+  "description": "a simple line chart directive using d3js",
+  "main": ["src/d3line/d3line.directive.js", "src/d3line/d3line.css"],
+  "moduleType": [],
+  "keywords": [
+    "d3"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
