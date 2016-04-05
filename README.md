@@ -1,6 +1,8 @@
 # d3line
 >A simple line chart directive using d3js on Angular
 
+[![NPM version][npm-image]][npm-url]
+
 ### Installation
 
 Install using [Bower](https://bower.io):
@@ -61,3 +63,6 @@ To learn more about D3, visit http://d3js.org
 ###LICENSE
 
 MIT
+
+[npm-image]: https://badge.fury.io/js/d3line.svg
+[npm-url]: https://badge.fury.io/js/d3line
