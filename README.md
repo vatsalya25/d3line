@@ -33,19 +33,19 @@ $scope.chartData = [
   {series: 'A',x: 2,y: 66},
   {series: 'A',x: 3,y: 77},
   {series: 'A',x: 4,y: 70},
-  {series: 'A',x: 5,y: 10},
+  {series: 'A',x: 5,y: 40},
 
   {series: 'B',x: 1,y: 74},
-  {series: 'B',x: 2,y: 46},
-  {series: 'B',x: 3,y: 37},
+  {series: 'B',x: 2,y: 26},
+  {series: 'B',x: 3,y: 67},
   {series: 'B',x: 4,y: 30},
   {series: 'B',x: 5,y: 90},
 
-  {series: 'C',x: 1,y: 14},
+  {series: 'C',x: 1,y: 54},
   {series: 'C',x: 2,y: 76},
   {series: 'C',x: 3,y: 27},
   {series: 'C',x: 4,y: 80},
-  {series: 'C',x: 5,y: 20}
+  {series: 'C',x: 5,y: 70}
 ];
 ```
 
@@ -54,6 +54,10 @@ Now, to create the chart, use the following command:
 ```
 <d3-line data="chartData" width="1200" height="400"></d3-line>
 ```
+
+Here's how the chart looks:
+
+![](images/d3line-directive-sample.png)
 
 ### Getting to know D3
 
