@@ -1,6 +1,6 @@
 {
   "name": "d3line",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple line chart directive using D3js on angular",
   "main": "src/d3line/d3line.directive.js",
   "scripts": {
