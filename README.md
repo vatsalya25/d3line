@@ -3,10 +3,16 @@
 
 ### Installation
 
-Install the directive using [Bower](http://bower.io):
+Install using [Bower](https://bower.io):
 
 ```
 bower install --save d3line
+```
+
+Install using [npm](https://www.npmjs.com/):
+
+```
+npm install --save d3line
 ```
 
 ### Using the d3line Directive
