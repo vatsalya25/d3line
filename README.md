@@ -1,2 +1,2 @@
 # d3line
-a simple line chart directive based on d3js
+A simple line chart directive using d3js on Angular
