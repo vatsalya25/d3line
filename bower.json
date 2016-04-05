@@ -4,8 +4,11 @@
   "authors": [
     "vatsalya25 <vatsalya25@gmail.com>"
   ],
-  "description": "a simple line chart directive using d3js",
-  "main": ["src/d3line/d3line.directive.js", "src/d3line/d3line.css"],
+  "description": "a simple line chart directive using d3js on Angular",
+  "main": [
+    "src/d3line/d3line.directive.js",
+    "src/d3line/d3line.css"
+  ],
   "moduleType": [],
   "keywords": [
     "d3"
@@ -17,5 +20,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "d3": "^3.5.16",
+    "moment": "^2.12.0"
+  }
 }
