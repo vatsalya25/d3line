@@ -25,6 +25,13 @@ Include the `d3LineModule` dependency in your Angular module:
 var app = angular.module('demoapp', ['d3LineModule']);
 ```
 
+**If installed through _npm_**, add the following lines as well:
+
+```
+require('d3');
+require('d3line');
+```
+
 Fetch or Add the chart data into your controller in the following format:
 
 ```
